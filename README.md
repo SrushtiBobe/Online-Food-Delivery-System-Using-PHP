@@ -40,26 +40,6 @@ Manage users
 Thank you message
 Order ID and summary
 
-# Folder Structure (Design Phase)
-food-delivery-app/
-│
-├── index.html              # Home Page
-├── login.html              # Login Page
-├── register.html           # Registration Page
-├── menu.html               # Food Menu
-├── cart.html               # Cart Page
-├── checkout.html           # Checkout Page
-├── admin.html              # Admin Dashboard
-├── order-confirmation.html # Order Confirmation
-│
-├── css/
-│   └── style.css           # Main Styles
-│
-├── js/
-│   └── script.js           # JS for interactivity
-│
-└── images/                 # Food images, logos, etc.
-
 🔧 Technical Requirements
 Frontend: HTML, CSS, JavaScript
 Backend: PHP
