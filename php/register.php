@@ -1,0 +1,1 @@
+<?php include('db_connect.php'); $user = $_POST['username']; $email = $_POST['email']; $pass = $_POST['password']; $sql = "INSERT INTO users (username, email, password) VALUES ('$user', '$email', '$pass')"; if ($conn->query($sql)) { echo 'Registered'; } else { echo 'Error'; } ?>

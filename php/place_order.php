@@ -1,0 +1,1 @@
+<?php include('db_connect.php'); $address = $_POST['address']; $payment = $_POST['payment']; $sql = "INSERT INTO orders (address, payment) VALUES ('$address', '$payment')"; if ($conn->query($sql)) { header('Location: ../order-confirmation.html'); } else { echo 'Error'; } ?>

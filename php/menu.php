@@ -1,0 +1,1 @@
+<?php include('db_connect.php'); $result = $conn->query("SELECT * FROM food_items"); while($row = $result->fetch_assoc()) { echo '<div>' . $row['name'] . ' - ₹' . $row['price'] . '</div>'; } ?>

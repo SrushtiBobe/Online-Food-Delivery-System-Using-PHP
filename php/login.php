@@ -1,0 +1,1 @@
+<?php include('db_connect.php'); session_start(); $user = $_POST['username']; $pass = $_POST['password']; $sql = "SELECT * FROM users WHERE username='$user' AND password='$pass'"; $result = $conn->query($sql); if ($result->num_rows > 0) { $_SESSION['user'] = $user; header('Location: ../menu.html'); } else { echo 'Login failed'; } ?>

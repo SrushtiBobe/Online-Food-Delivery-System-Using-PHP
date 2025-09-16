@@ -1,0 +1,1 @@
+<?php include('db_connect.php'); $result = $conn->query("SELECT * FROM orders"); while($row = $result->fetch_assoc()) { echo '<div>' . $row['address'] . ' - ' . $row['payment'] . '</div>'; } ?>

@@ -1,0 +1,1 @@
+<?php include('db_connect.php'); $name = $_POST['name']; $price = $_POST['price']; $sql = "INSERT INTO food_items (name, price) VALUES ('$name', '$price')"; if ($conn->query($sql)) { echo 'Food added'; } else { echo 'Error'; } ?>
